@@ -1,0 +1,23 @@
+[user]
+    name = Erez Shinan
+    email = erezshin+git@gmail.com
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+    ui = true
+[color "branch"]
+    remote = blue
+[color "diff"]
+    meta = blue bold
+[color "status"]
+    changed = yellow
+[alias]
+    st = status -sb
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    rst = reset
+    lg = log --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+    purr = pull --rebase
